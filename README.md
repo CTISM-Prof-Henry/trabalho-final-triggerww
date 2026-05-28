@@ -27,9 +27,9 @@ O projeto deve ser publicado no **GitHub Pages** e apresentado em aula para o pr
 
 Descreva abaixo **sobre o que se trata seu site:**
 
-- **Tema:**
-- **Público-alvo:**
-- **Funcionalidades:**
+- **Tema:** Site para que criadores consigam postar suas músicas.
+- **Público-alvo:** Criadores de músicas iniciantes que querem compartilhar seu som.
+- **Funcionalidades:**Vai permitir que adicionem músicas no site, e também deletar.(gambiarra com localStorage)
 
 ## Uso de IA
 
@@ -51,16 +51,16 @@ Marque com `[x]` os elementos que **foram implementados no seu site**. Você nã
 
 #### Estrutura básica
 
-- [ ] `<!DOCTYPE html>`
-- [ ] `<html>`
-- [ ] `<head>`
-- [ ] `<title>`
+- [x] `<!DOCTYPE html>`
+- [x] `<html>`
+- [x] `<head>`
+- [x] `<title>`
 - [ ] `<body>`
 
 #### Estrutura semântica
 
-- [ ] `<header>`
-- [ ] `<nav>`
+- [x] `<header>`
+- [x] `<nav>`
 - [ ] `<main>`
 - [ ] `<section>`
 - [ ] `<article>`
