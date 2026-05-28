@@ -12,13 +12,13 @@ O projeto deve ser publicado no **GitHub Pages** e apresentado em aula para o pr
 
 ## 📌 Checklist
 
-* [ ] meu site tem pelo menos um arquivo do tipo `.html` 
-* [ ] estou usando CSS externo, em um arquivo separado `.css`
+* [x] meu site tem pelo menos um arquivo do tipo `.html` 
+* [x] estou usando CSS externo, em um arquivo separado `.css`
 * [ ] estou usando Javascript externo, em um arquivo separado `.js`
-* [ ] os arquivos do meu site estão na pasta `site`
-* [ ] a pasta `site` tem um arquivo `index.html`, que é a página inicial do meu site; sem esse arquivo, o GitHub Pages 
+* [x] os arquivos do meu site estão na pasta `site`
+* [x] a pasta `site` tem um arquivo `index.html`, que é a página inicial do meu site; sem esse arquivo, o GitHub Pages 
       não vai funcionar
-* [ ] estou ciente que, se eu modificar ou excluir arquivos que não estejam na pasta `site` 
+* [x] estou ciente que, se eu modificar ou excluir arquivos que não estejam na pasta `site` 
       (por exemplo, `.github` ou `README.md`), isso pode afetar o funcionamento do meu site
 * [ ] respondi todas as perguntas e preenchi todos os checkboxes abaixo
 * [ ] meu site está hospedado no GitHub Pages, no link `<escreva aqui o link do seu site>`
@@ -29,7 +29,7 @@ Descreva abaixo **sobre o que se trata seu site:**
 
 - **Tema:** Site para que criadores consigam postar suas músicas.
 - **Público-alvo:** Criadores de músicas iniciantes que querem compartilhar seu som.
-- **Funcionalidades:** Vai permitir que adicionem músicas no site, e também deletar.(gambiarra com localStorage)
+- **Funcionalidades:** Vai permitir que adicionem músicas no site, e também deletar(gambiarra com localStorage).
 
 ## Uso de IA
 
