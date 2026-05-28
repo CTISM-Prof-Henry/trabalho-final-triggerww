@@ -29,7 +29,7 @@ Descreva abaixo **sobre o que se trata seu site:**
 
 - **Tema:** Site para que criadores consigam postar suas músicas.
 - **Público-alvo:** Criadores de músicas iniciantes que querem compartilhar seu som.
-- **Funcionalidades:**Vai permitir que adicionem músicas no site, e também deletar.(gambiarra com localStorage)
+- **Funcionalidades:** Vai permitir que adicionem músicas no site, e também deletar.(gambiarra com localStorage)
 
 ## Uso de IA
 
