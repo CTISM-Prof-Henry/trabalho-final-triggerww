@@ -1,69 +1,78 @@
-@font-face {
-    font-family: "GregorianFLF";
-    src: url('../fonts/GregorianFLF.ttf');
+:root {
+    --cor-principal: #F97316;
 }
 
 * {
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
 
 a {
+    color: inherit;
     text-decoration: none;
-    color: unset;
 }
 
 a:hover {
-    color: #4169E1;
+    color: var(--cor-principal);
 }
 
-nav {
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2D3748;
+}
+
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ebebf0;
+    padding-inline: 3%;
+}
+
+.logo {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    padding-inline: 20px;
-    background: rgba(29, 29, 29, 0.3);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(35, 35, 35, 0.5);
-    color: white;
-    margin: 2%;
-    border-radius: 10px;
 }
 
-nav h1 {
-    font-family: 'GregorianFLF';
-    text-transform: uppercase;
-    font-weight: normal;
-    color: #4169E1;
+.logo img {
+    width: 40px;
+}
+
+.logo h1 {
+    padding: 10px;
+    font-size: 20px;
 }
 
 nav ul {
+    display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
 nav ul li {
-    display: inline;
-    padding-inline: 5px;
+    padding: 20px;
+    padding-inline: 20px;
 }
 
-#login {
-    background-color: #4169E1;
-    color: black;
-    padding: 10px;
-    border-radius: 10px;
+.btn-adotar {
+    display: flex;
+    align-items: center;
+    background-color: var(--cor-principal);
+    color: white;
+    border-radius: 50px;
+    padding-block: 5px;
+    padding-inline: 15px;
 }
 
-#login:hover {
-    background-color: #2d4ca6;
+.btn-adotar:hover {
+    opacity: 0.9;
+    color: white;
 }
 
-#catalogo:hover {
-    text-decoration: underline;
+.btn-adotar img {
+    width: 15px;
 }
 
-body {
-    background-color: black;
+.btn-adotar p {
+    padding-left: 5px;
 }

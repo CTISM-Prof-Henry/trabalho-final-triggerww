@@ -27,9 +27,9 @@ O projeto deve ser publicado no **GitHub Pages** e apresentado em aula para o pr
 
 Descreva abaixo **sobre o que se trata seu site:**
 
-- **Tema:** Site para que criadores consigam postar suas músicas.
-- **Público-alvo:** Criadores de músicas iniciantes que querem compartilhar seu som.
-- **Funcionalidades:** Vai permitir que adicionem músicas no site, e também deletar(gambiarra com localStorage).
+- **Tema:** Site para adoção de pets. 
+- **Público-alvo:** Pessoas que querem adotar pets.
+- **Funcionalidades:** Catálogo de pets com filtros, busca de animais, visualização de informações detalhadas dos pets, login e cadastro para que ONGs consigam colocar pets para adoção.
 
 ## Uso de IA
 
