@@ -1,5 +1,7 @@
 :root {
     --cor-principal: #F97316;
+    --titulo: #2D3748;
+    --texto: #6B7280;
 }
 
 * {
@@ -11,20 +13,28 @@ a {
     text-decoration: none;
 }
 
+a.ativo {
+    color: var(--cor-principal);
+}
+
 a:hover {
     color: var(--cor-principal);
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: #2D3748;
+    font-size: 16px;
+    background: #FEF3E2;
+    background: linear-gradient(135deg, rgba(254, 243, 226, 1) 0%, rgba(254, 253, 251, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    color: var(--titulo);
 }
 
 .cabeçalho {
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #ebebf0;
+    border-bottom: 1px solid #e5e7eb;
     padding-inline: 3%;
 }
 
@@ -35,6 +45,7 @@ body {
 
 .logo img {
     width: 40px;
+    height: 40px;
 }
 
 .logo h1 {
@@ -60,7 +71,7 @@ nav ul li {
     background-color: var(--cor-principal);
     color: white;
     border-radius: 50px;
-    padding-block: 5px;
+    padding-block: 8px;
     padding-inline: 15px;
 }
 
@@ -71,8 +82,72 @@ nav ul li {
 
 .btn-adotar img {
     width: 15px;
+    height: 15px;
 }
 
 .btn-adotar p {
     padding-left: 5px;
+}
+
+
+article {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10%;
+    padding-inline: 3%;
+}
+
+.intro h1 {
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+.intro p {
+    font-size: 20px;
+    width: 80%;
+    color: var(--texto);
+}
+
+.btn-intro {
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.btn-protetor {
+    display: flex;
+    align-items: center;
+    background-color: var(--cor-principal);
+    padding-block: 15px;
+    padding-inline: 25px;
+    border-radius: 50px;
+}
+
+.btn-protetor img {
+    width: 20px;
+    height: 20px;
+    padding-left: 10px;
+}
+
+.btn-protetor:hover {
+    opacity: 0.9;
+    color: white;
+}
+
+.btn-protetor span {
+    color: white;
+}
+
+.btn-funciona {
+    border: 2px solid var(--cor-principal);
+    padding-block: 15px;
+    padding-inline: 25px;
+    border-radius: 50px;
+    margin-left: 20px;
+    color: var(--cor-principal);
+}
+
+.btn-funciona:hover {
+    background-color: var(--cor-principal);
+    color: white;
 }
