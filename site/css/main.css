@@ -1,5 +1,5 @@
 :root {
-    --cor-principal: #F97316;
+    --cor-principal: #6495ED;
     --titulo: #2D3748;
     --texto: #6B7280;
 }
@@ -80,9 +80,19 @@ nav ul li {
     color: white;
 }
 
-.btn-adotar img {
+.btn-adotar-ativo {
     width: 15px;
     height: 15px;
+    background-image: url('../images/coracao.png');
+    background-size: cover;
+    background-position: center;
+    transition: all 0.2s ease-out;
+}
+
+.btn-adotar-ativo:hover {
+    background-image: url('../images/coracao2.png');
+    transform: scale(1.1);
+    transition: all 0.2s ease-out;
 }
 
 .btn-adotar p {
@@ -92,8 +102,9 @@ nav ul li {
 
 article {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    padding-top: 10%;
+    padding-block: 10%;
     padding-inline: 3%;
 }
 
@@ -111,6 +122,7 @@ article {
 .btn-intro {
     display: flex;
     align-items: center;
+    flex-direction: row;
     margin-top: 5%;
 }
 
@@ -145,9 +157,16 @@ article {
     border-radius: 50px;
     margin-left: 20px;
     color: var(--cor-principal);
+    transition: all 0.2s ease-out;
 }
 
 .btn-funciona:hover {
     background-color: var(--cor-principal);
     color: white;
+    transition: all 0.2s ease-out;
+}
+
+.pet-img {
+    width: 250px;
+    padding-right: 300px;
 }
