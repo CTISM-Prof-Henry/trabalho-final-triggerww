@@ -23,7 +23,7 @@ a:hover {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     background: #FEF3E2;
     background: #E8F0FF;
     background: linear-gradient(135deg, rgba(232, 240, 255, 1) 0%, rgba(250, 252, 255, 1) 50%, rgba(255, 255, 255, 1) 100%);
@@ -91,7 +91,7 @@ nav ul li {
 }
 
 .btn-adotar-ativo:hover {
-    background-image: url('../images/coracao2.png');
+    background-image: url('../images/coracao-ativo.png');
     transform: scale(1.1);
     transition: all 0.2s ease-out;
 }
@@ -101,18 +101,19 @@ nav ul li {
 }
 
 
-article {
+#intro {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-block: 10%;
+    padding-top: 10%;
+    padding-bottom: 5%;
     padding-inline: 5%;
-    border-bottom: 1px solid red;
 }
 
 .intro h1 {
     font-size: 50px;
     line-height: 1.2;
+    margin: 0;
 }
 
 .intro p {
@@ -172,3 +173,37 @@ article {
     width: 250px;
     padding-right: 200px;
 }
+
+.destaque-info {
+    text-align: center;
+    margin: 3%;
+}
+
+.destaque {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    margin-bottom: 100%;
+}
+
+.destaque-cards {
+    width: 30%;
+    height: 450px;
+    border: 1px solid e5e7eb;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.destaque-cards img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px 10px 0 0;
+}
+
+.conteudo-cards {
+    padding: 10px;
+}
+
