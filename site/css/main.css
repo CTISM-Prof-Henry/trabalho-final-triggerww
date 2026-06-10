@@ -31,12 +31,15 @@ body {
 }
 
 .cabeçalho {
-    background-color: white;
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: white;
     border-bottom: 1px solid #e5e7eb;
     padding-inline: 5%;
+    box-sizing: border-box;
 }
 
 .logo {
@@ -66,7 +69,7 @@ nav ul li {
     padding-inline: 20px;
 }
 
-.btn-adotar {
+.btn-apoie {
     display: flex;
     align-items: center;
     background-color: var(--cor-principal);
@@ -74,29 +77,21 @@ nav ul li {
     border-radius: 50px;
     padding-block: 8px;
     padding-inline: 15px;
+    transition: all 0.2s ease-out;
 }
 
-.btn-adotar:hover {
+.btn-apoie:hover {
     opacity: 0.9;
     color: white;
+    transition: all 0.2s ease-out;
 }
 
-.btn-adotar-ativo {
+.btn-apoie img {
     width: 15px;
     height: 15px;
-    background-image: url('../images/coracao.png');
-    background-size: cover;
-    background-position: center;
-    transition: all 0.2s ease-out;
 }
 
-.btn-adotar-ativo:hover {
-    background-image: url('../images/coracao-ativo.png');
-    transform: scale(1.1);
-    transition: all 0.2s ease-out;
-}
-
-.btn-adotar p {
+.btn-apoie span {
     padding-left: 5px;
 }
 
@@ -105,7 +100,7 @@ nav ul li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 10%;
+    padding-top: 15%;
     padding-bottom: 5%;
     padding-inline: 5%;
 }
@@ -129,27 +124,29 @@ nav ul li {
     margin-top: 5%;
 }
 
-.btn-protetor {
+.btn-adotar {
     display: flex;
     align-items: center;
     background-color: var(--cor-principal);
     padding-block: 15px;
     padding-inline: 25px;
     border-radius: 50px;
+    transition: all 0.2s ease-out;
 }
 
-.btn-protetor img {
+.btn-adotar img {
     width: 20px;
     height: 20px;
     padding-left: 10px;
 }
 
-.btn-protetor:hover {
+.btn-adotar:hover {
     opacity: 0.9;
     color: white;
+    transition: all 0.2s ease-out;
 }
 
-.btn-protetor span {
+.btn-adotar span {
     color: white;
 }
 
@@ -189,11 +186,11 @@ nav ul li {
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    gap: 20px;
+    gap: 50px;
 }
 
 .destaque-cards {
-    width: 30%;
+    width: 27%;
     height: auto;
     border: 1px solid e5e7eb;
     border-radius: 15px;
@@ -210,6 +207,7 @@ nav ul li {
 
 .conteudo-cards {
     padding: 10px;
+    padding-inline: 20px;
 }
 
 .conteudo-cards p {
@@ -224,10 +222,12 @@ nav ul li {
     border-radius: 50px;
     padding-block: 8px;
     margin: 15px;
+    transition: all 0.2s ease-out;
 }
 
 .btn-conhecer:hover {
     opacity: 0.9;
+    transition: all 0.2s ease-out;
 }
 
 .btn-conhecer span {
