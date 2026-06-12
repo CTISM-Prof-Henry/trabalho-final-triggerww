@@ -28,7 +28,7 @@ O projeto deve ser publicado no **GitHub Pages** e apresentado em aula para o pr
 Descreva abaixo **sobre o que se trata seu site:**
 
 - **Tema:** Site para adoção de pets. 
-- **Público-alvo:** Pessoas que querem adotar pets.
+- **Público-alvo:** Pessoas que querem adotar pets, e ONGs de adoção.
 - **Funcionalidades:** Catálogo de pets com filtros, busca de animais, visualização de informações detalhadas dos pets, login e cadastro para que ONGs consigam colocar pets para adoção.
 
 ## Uso de IA
@@ -89,7 +89,7 @@ Marque com `[x]` os elementos que **foram implementados no seu site**. Você nã
 
 - Seletor de...
   - [x] Classes (`.classe`)
-  - [x] IDs (`#id`)
+  - [] IDs (`#id`)
   - [x] pseudoclasse (`#a::hover`)
 - [x] Cores
 - [x] Tipografia (e.g. `font-family`)

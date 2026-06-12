@@ -96,7 +96,7 @@ nav ul li {
 }
 
 
-#intro {
+.intro-article {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -250,4 +250,32 @@ nav ul li {
 
 .destaque-fim:hover {
     text-decoration: underline;
+}
+
+.funciona-info {
+    text-align: center;
+    margin: 3%;
+    color: var(--texto);
+}
+
+.funciona-info h1 {
+    color: var(--titulo);
+}
+
+.funciona {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.funciona-cards {
+    width: 20%;
+    font-size: 15px;
+}
+
+.funciona-conteudo p {
+    margin: 10px;
+    color: var(--texto);
 }
