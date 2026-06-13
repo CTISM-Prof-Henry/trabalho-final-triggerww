@@ -25,7 +25,7 @@ a:hover {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     background: #FEF3E2;
     background: #E8F0FF;
     background: linear-gradient(135deg, rgba(232, 240, 255, 1) 0%, rgba(250, 252, 255, 1) 50%, rgba(255, 255, 255, 1) 100%);
@@ -315,6 +315,7 @@ nav ul li {
     flex-direction: row;
     justify-content: center;
     gap: 50px;
+    margin-bottom: 5%;
 }
 
 .adotar-cards {
@@ -350,3 +351,34 @@ nav ul li {
     width: 30px;
     height: 30px;
 }
+
+footer {
+    font-size: 16px;
+    padding: 50px;
+    padding-inline: 5%;
+    align-items: center;
+    border-top: 1px solid #e5e7eb;
+    color: var(--texto);
+}
+
+footer header {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    color: var(--titulo);
+}
+
+footer img {
+    width: 30px;
+    padding-right: 10px;
+}
+
+footer p {
+    padding-block: 10px;
+}
+
+footer span {
+    font-size: 15px;
+}
+
+
