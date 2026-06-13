@@ -1,5 +1,6 @@
 :root {
     --cor-principal: #6495ED;
+    --cor-secundaria: #e8f0ff;
     --titulo: #2D3748;
     --texto: #6B7280;
 }
@@ -172,11 +173,12 @@ nav ul li {
 .destaque-info {
     text-align: center;
     margin: 3%;
-    color: var(--texto);
+    margin-top: 5%;
+    color: var(--titulo);
 }
 
-.destaque-info h1 {
-    color: var(--titulo);
+.destaque-info p {
+    color: var(--texto);
 }
 
 .destaque {
@@ -190,7 +192,7 @@ nav ul li {
 .destaque-cards {
     width: 27%;
     height: auto;
-    border: 1px solid e5e7eb;
+    border: 1px solid #e5e7eb;
     border-radius: 15px;
     background-color: white;
     box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
@@ -253,11 +255,12 @@ nav ul li {
 .funciona-info {
     text-align: center;
     margin: 3%;
-    color: var(--texto);
+    margin-top: 10%;
+    color: var(--titulo);
 }
 
-.funciona-info h1 {
-    color: var(--titulo);
+.funciona-info p {
+    color: var(--texto);
 }
 
 .funciona {
@@ -292,6 +295,58 @@ nav ul li {
 }
 
 .funciona-background img {
+    width: 30px;
+    height: 30px;
+}
+
+.adotar-info {
+    text-align: center;
+    margin: 3%;
+    margin-top: 10%;
+    color: var(--titulo);
+}
+
+.adotar-info p {
+    color: var(--texto);
+}
+
+.adotar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.adotar-cards {
+    width: 25%;
+    height: auto;
+    border: 1px solid #e5e7eb;
+    border-radius: 15px;
+    background-color: white;
+    font-size: 16px;
+    padding: 20px;
+    align-content: flex-start;
+}
+
+.adotar-cards p {
+    margin: 10px;
+    margin-left: 0;
+    color: var(--texto);
+}
+
+.adotar-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-secundaria);
+    border-radius: 15px;
+    margin: 10px;
+    margin-left: 0;
+    width: 50px;
+    height: 50px;
+}
+
+.adotar-background img {
     width: 30px;
     height: 30px;
 }
