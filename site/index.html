@@ -11,7 +11,7 @@
 <body>
     <header class="cabecalho">
         <div class="logo">
-            <img src="images/patinha.png">
+            <img src="images/patinha.png" alt="Logo Patinhas">
             <h1>Patinhas</h1>
         </div>
 
@@ -24,140 +24,159 @@
         </nav>
 
         <a href="#" class="btn-apoie">
-            <img src="images/coracao-ativo.png">
+            <img src="images/coracao.png" alt="Coração">
             <span>Apoie patinhas</span>
         </a>
     </header>
     <main>
-        <article class="intro-article">
+        <article>
             <section class="intro">
-                <h1>Encontre seu novo<br>melhor amigo</h1>
-                <p>Cada patinha tem uma história.<br> Aqui você encontra cães e gatos que aguardam<br> uma segunda chance para receber amor, cuidado e um lar definitivo.</p>
-                <div class="btn-intro">
-                    <a href="pages/adotar.html" class="btn-adotar">
-                        <span>Quero adotar um pet</span>
-                        <img src="images/right-arrow.png">
-                    </a>
-                    <a href="#como-funciona" class="btn-funciona"><span>Como funciona?</span></a>
+                <div class="intro-conteudo">
+                    <h1>Encontre seu novo<br>melhor amigo</h1>
+                    <p>Cada patinha tem uma história.<br> Aqui você encontra cães e gatos que aguardam<br> uma segunda chance para receber amor, cuidado e um lar definitivo.</p>
+                    <div class="btn-intro">
+                        <a href="pages/adotar.html" class="btn-adotar">
+                            <span>Quero adotar um pet</span>
+                            <img src="images/right-arrow.png" alt="Botão quero adotar">
+                        </a>
+                        <a href="#como-funciona" class="btn-funciona"><span>Como funciona?</span></a>
+                    </div>
+                </div>
+                <div class="intro-imagens">
+                    <img src="images/gato-exemplo.JPEG" alt="Gatinho feliz">
+                    <img src="images/gato-exemplo.JPEG" id="pet-img" alt="Cachorro feliz">
                 </div>
             </section>
-            <section class="pet-img">
-                <img src="images/gato-exemplo.JPEG" alt="Gatinho feliz">
-                <img src="images/gato-exemplo.JPEG" id="pet-img" alt="Cachorro feliz">
-            </section>
-        </article>
-        <article>
-            <header class="destaque-info">
-                <h1>Pets em Destaque</h1>
-                <p>Conheça alguns dos nossos pets que estão esperando por um lar amoroso</p>
-            </header>
+
             <section class="destaque">
-                <!--Colocar algo com javascript para gerar os cards:)-->
-                <div class="destaque-cards">
-                    <img src="images/gato-exemplo.JPEG">
-                    <div class="conteudo-cards">
-                        <h3>Gato</h3>
-                        <p>Frajola • Gato</p>
-                        <p>1 Mês • Minúsculo</p>
-                        <a href="" class="btn-conhecer">
-                            <span>Conhecer</span>
-                        </a>
+                <header class="componente-titulo">
+                    <h1>Pets em Destaque</h1>
+                    <p>Conheça alguns dos nossos pets que estão esperando por um lar amoroso</p>
+                </header>
+
+                <div class="destaque-conteudo">
+                    <div class="destaque-cards">
+                        <img src="images/gato-exemplo.JPEG" alt="Pet em destaque">
+                        <div class="conteudo-cards">
+                            <h3>Gato</h3>
+                            <p>Frajola • Gato</p>
+                            <p>1 Mês • Minúsculo</p>
+                            <a href="" class="btn-conhecer">
+                                <span>Conhecer</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="destaque-cards">
+                        <img src="images/gato-exemplo.JPEG" alt="Pet em destaque">
+                        <div class="conteudo-cards">
+                            <h3>Gato</h3>
+                            <p>Frajola • Gato</p>
+                            <p>1 Mês • Minúsculo</p>
+                            <a href="" class="btn-conhecer">
+                                <span>Conhecer</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="destaque-cards">
+                        <img src="images/gato-exemplo.JPEG" alt="Pet em destaque">
+                        <div class="conteudo-cards">
+                            <h3>Gato</h3>
+                            <p>Frajola • Gato</p>
+                            <p>1 Mês • Minúsculo</p>
+                            <a href="" class="btn-conhecer">
+                                <span>Conhecer</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="destaque-cards">
+                        <img src="images/gato-exemplo.JPEG" alt="Pet em destaque">
+                        <div class="conteudo-cards">
+                            <h3>Gato</h3>
+                            <p>Frajola • Gato</p>
+                            <p>1 Mês • Minúsculo</p>
+                            <a href="" class="btn-conhecer">
+                                <span>Conhecer</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="destaque-cards">
-                    <img src="images/gato-exemplo.JPEG">
-                    <div class="conteudo-cards">
-                        <h3>Gato</h3>
-                        <p>Frajola • Gato</p>
-                        <p>1 Mês • Minúsculo</p>
-                        <a href="" class="btn-conhecer">
-                            <span>Conhecer</span>
-                        </a>
+
+                <a href="pages/adotar.html" class="destaque-fim">
+                    <p>Ver todos os pets disponíveis para adoção</p>
+                    <img src="images/right-arrow-azul.png" class="Botão ver pets disponíveis">
+                </a>
+            </section>
+
+            <section class="como-funciona">
+                <header class="componente-titulo">
+                    <h1>Como funciona?</h1>
+                    <p>Um processo simples e transparente para garantir uma adoção responsável</p>
+                </header>
+
+                <div class="como-funciona-conteudo">
+                    <div class="como-funciona-cards">
+                        <div class="como-funciona-background">
+                            <img src="images/coracao-icon.png" alt="Coração">
+                        </div>
+                        <p>1</p>
+                        <h3>Encontre seu pet</h3>
+                        <p>Navegue e encontre o companheiro perfeito para você</p>
                     </div>
-                </div>
-                <div class="destaque-cards">
-                    <img src="images/gato-exemplo.JPEG">
-                    <div class="conteudo-cards">
-                        <h3>Gato</h3>
-                        <p>Frajola • Gato</p>
-                        <p>1 Mês • Minúsculo</p>
-                        <a href="" class="btn-conhecer">
-                            <span>Conhecer</span>
-                        </a>
+                    <div class="como-funciona-cards">
+                        <div class="como-funciona-background">
+                            <img src="images/contato.png" alt="Contato">
+                        </div>
+                        <p>2</p>
+                        <h3>Entre em contato</h3>
+                        <p>Entre em contato com a ONG ou protetor responsável pelo animal</p>
+                    </div>
+                    <div class="como-funciona-cards">
+                        <div class="como-funciona-background">
+                            <img src="images/map-pin.png" alt="Mapa">
+                        </div>
+                        <p>3</p>
+                        <h3>Visite o pet</h3>
+                        <p>Agende uma visita para conhecer o pet pessoalmente</p>
+                    </div>
+                    <div class="como-funciona-cards">
+                        <div class="como-funciona-background">
+                            <img src="images/check.png" alt="Check">
+                        </div>
+                        <p>4</p>
+                        <h3>Complete a adoção</h3>
+                        <p>Assine o termo de adoção responsável e leve seu novo amigo para casa</p>
                     </div>
                 </div>
             </section>
-            <a href="pages/adotar.html" class="destaque-fim">
-                <p>Ver todos os pets disponíveis para adoção</p>
-                <img src="images/right-arrow-azul.png">
-            </a>
-        </article>
-        <article id="como-funciona">
-            <header class="funciona-info">
-                <h1>Como funciona?</h1>
-                <p>Um processo simples e transparente para garantir uma adoção responsável</p>
-            </header>
-            <section class="funciona">
-                <div class="funciona-cards">
-                    <div class="funciona-background">
-                        <img src="images/coracao-icon.png">
-                    </div>
-                    <p>1</p>
-                    <h3>Encontre seu pet</h3>
-                    <p>Navegue e encontre o companheiro perfeito para você</p>
-                </div>
-                <div class="funciona-cards">
-                    <div class="funciona-background">
-                        <img src="images/contato.png">
-                    </div>
-                    <p>2</p>
-                    <h3>Entre em contato</h3>
-                    <p>Entre em contato com a ONG ou protetor responsável pelo animal</p>
-                </div>
-                <div class="funciona-cards">
-                    <div class="funciona-background">
-                        <img src="images/map-pin.png">
-                    </div>
-                    <p>3</p>
-                    <h3>Visite o pet</h3>
-                    <p>Agende uma visita para conhecer o pet pessoalmente</p>
-                </div>
-                <div class="funciona-cards">
-                    <div class="funciona-background">
-                        <img src="images/check.png">
-                    </div>
-                    <p>4</p>
-                    <h3>Complete a adoção</h3>
-                    <p>Assine o termo de adoção responsável e leve seu novo amigo para casa</p>
-                </div>
-            </section>
-        </article>
-        <article>
-            <header class="adotar-info">
-                <h1>Por que adotar?</h1>
-                <p>Descubra os benefícios de trazer um novo amigo para sua família</p>
-            </header>
+
             <section class="adotar">
-                <div class="adotar-cards">
-                    <div class="adotar-background">
-                        <img src="images/coracao-azul.png">
+                <header class="componente-titulo">
+                    <h1>Por que adotar?</h1>
+                    <p>Descubra os benefícios de trazer um novo amigo para sua família</p>
+                </header>
+
+                <div class="conteudo-adotar">
+                    <div class="adotar-cards">
+                        <div class="adotar-background">
+                            <img src="images/coracao-azul.png" alt="Coração azul">
+                        </div>
+                        <h3>Amor incondicional</h3>
+                        <p>Ganhe um companheiro leal que estará ao seu lado sempre</p>
                     </div>
-                    <h3>Amor incondicional</h3>
-                    <p>Ganhe um companheiro leal que estará ao seu lado sempre</p>
-                </div>
-                <div class="adotar-cards">
-                    <div class="adotar-background">
-                        <img src="images/pets.png">
+                    <div class="adotar-cards">
+                        <div class="adotar-background">
+                            <img src="images/pets.png" class="Gatinho">
+                        </div>
+                        <h3>Salve uma vida</h3>
+                        <p>Dê uma segunda chance a um animal que precisa de um lar</p>
                     </div>
-                    <h3>Salve uma vida</h3>
-                    <p>Dê uma segunda chance a um animal que precisa de um lar</p>
-                </div>
-                <div class="adotar-cards">
-                    <div class="adotar-background">
-                        <img src="images/suporte.png">
+                    <div class="adotar-cards">
+                        <div class="adotar-background">
+                            <img src="images/suporte.png" class="Suporte">
+                        </div>
+                        <h3>Suporte completo</h3>
+                        <p>Receba orientação e acompanhamento das ONGs parceiras</p>
                     </div>
-                    <h3>Suporte completo</h3>
-                    <p>Receba orientação e acompanhamento das ONGs parceiras</p>
                 </div>
             </section>
         </article>
@@ -165,13 +184,11 @@
 
     <footer>
         <header>
-            <img src="images/patinha.png">
+            <img src="images/patinha.png" alt="Logo">
             <h3>Patinhas</h3>
         </header>
         <p>Ao adotar, você não apenas ganha um companheiro<br>fiel, mas também transforma uma vida para sempre.</p>
         <span>© 2026 Patinhas. Nenhum direito reservado.</span>
     </footer>
-
-    <script src="index.html"></script>
 </body>
 </html>
