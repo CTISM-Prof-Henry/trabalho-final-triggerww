@@ -1,4 +1,5 @@
 :root {
+    --cor-principal-50: #e5edfc;
     --cor-principal-300: #98b8f3;
     --cor-principal-500: #6495ed;
     --cor-principal-600: #3271e7;
@@ -222,7 +223,7 @@ article {
 
 .titulos {
     text-align: center;
-    margin: 3%;
+    margin: 5%;
     color: var(--cor-titulo-500);
 }
 
@@ -298,4 +299,110 @@ article {
 .btn-disponiveis:hover {
     color: var(--cor-principal-600);
     text-decoration: underline;
+}
+
+.funciona {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.funciona-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: var(--cor-titulo-500);
+}
+
+.funciona-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-principal-500);
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+.funciona-background img {
+    width: 30px;
+    height: 30px;
+}
+
+.funciona-cards p {
+    margin: 10px;
+    color: var(--cor-texto);
+}
+
+.adotar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.adotar-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    border: 1px solid var(--cor-bordas);
+    border-radius: 15px;
+    background-color: white;
+    color: var(--cor-titulo-500);
+    padding: 20px;
+}
+
+.adotar-cards p {
+    margin: 10px;
+    margin-left: 0;
+    color: var(--cor-texto);
+}
+
+.adotar-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-principal-50);
+    border-radius: 15px;
+    margin: 10px;
+    margin-left: 0;
+    width: 50px;
+    height: 50px;
+}
+
+.adotar-background img {
+    width: 30px;
+    height: 30px;
+}
+
+footer {
+    font-size: 16px;
+    padding: 50px;
+    padding-inline: 5%;
+    align-items: center;
+    border-top: 1px solid #e5e7eb;
+}
+
+footer header {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    color: var(--cor-titulo-800);
+}
+
+footer img {
+    width: 30px;
+    padding-right: 10px;
+}
+
+footer p {
+    padding-block: 10px;
+    color: var(--cor-texto);
+}
+
+footer span {
+    font-size: 15px;
+    color: var(--cor-texto);
 }

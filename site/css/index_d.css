@@ -239,7 +239,6 @@ nav ul li {
 
 .btn-conhecer:hover {
     opacity: 0.9;
-    transition: all 0.2s ease-out;
 }
 
 .btn-conhecer span {
