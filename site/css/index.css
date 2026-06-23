@@ -1,7 +1,7 @@
 :root {
     --cor-principal-300: #98b8f3;
     --cor-principal-500: #6495ed;
-    --cor-principal-700: #1856c9;
+    --cor-principal-600: #3271e7;
     --cor-titulo-500: #2D3748;
     --cor-titulo-800: #171c24;
     --cor-texto: #6B7280;
@@ -68,11 +68,13 @@ nav ul li {
     padding: 20px;
     padding-inline: 20px;
     border-bottom: 2px solid var(--cor-bordas);
+    transition: all 0.1s ease-out;
 }
 
 nav ul li:hover {
     color: var(--cor-principal-500);
     border-bottom: 2px solid var(--cor-principal-500);
+    transition: all 0.1s ease-out;
 }
 
 .btn-apoie {
@@ -88,7 +90,7 @@ nav ul li:hover {
 }
 
 .btn-apoie:hover {
-    background-color: var(--cor-principal-700);
+    background-color: var(--cor-principal-600);
     transition: all 0.2s ease-out;
 }
 
