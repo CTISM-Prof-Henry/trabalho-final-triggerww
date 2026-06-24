@@ -284,10 +284,13 @@ footer span {
     color: var(--cor-texto);
 }
 
+
 @media (max-width: 767px) {
 
     body {
         font-size: 14px;
+        background-color: white;
+        background: none;
     }
 
     .cabecalho {
@@ -300,6 +303,28 @@ footer span {
 
     .logo h1 {
         display: none;
+    }
+
+    #mobile-li {
+        display: block;
+    }
+
+    #pc-li {
+        display: none;
+    }
+
+    .btn-apoie {
+        display: none;
+    }
+
+    .protetor-info {
+        margin-top: 20%;
+    }
+    
+    .login {
+        width: 90%;
+        border: none;
+        box-shadow: none;
     }
 
     footer {
