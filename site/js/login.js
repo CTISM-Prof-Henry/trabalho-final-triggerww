@@ -1,3 +1,5 @@
+// Só para conseguir registrar os pets.
+
 const form = document.querySelector('.login');
 const botao = document.querySelector('.btn-login');
 
@@ -8,7 +10,12 @@ function login(event) {
     let senha = document.getElementById('senha').value;
 
     if(email == "admin" && senha == "1234") {
-        location.href = "cadastrar-pet.html";
+        botao.style.background = 'var(--confirmar)';
+        botao.value = 'Logando';
+
+        setTimeout(() => {
+            location.href = "cadastrar-pet.html";
+        }, 1000);
     } else {
         botao.style.background = 'var(--erro)';
         botao.value = 'Login inválido!';
