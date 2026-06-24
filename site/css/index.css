@@ -160,6 +160,7 @@ article {
     display: flex;
     align-items: center;
     margin-top: 5%;
+    font: 1rem;
 }
 
 .btn-adotar {
@@ -405,4 +406,8 @@ footer p {
 footer span {
     font-size: 15px;
     color: var(--cor-texto);
+}
+
+@media (max-width: 767px) {
+    
 }
