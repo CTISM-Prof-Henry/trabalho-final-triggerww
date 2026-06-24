@@ -351,7 +351,7 @@ article {
 .adotar-cards {
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: center;
     border: 1px solid var(--cor-bordas);
     border-radius: 15px;
     background-color: white;
@@ -452,22 +452,28 @@ footer span {
 
     .destaque {
         flex-direction: column;
+        justify-self: center;
+        align-items: center;
     }
 
     .destaque-cards {
-        width: 90%;
+        width: 100%;
     }
 
     .funciona {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .funciona-cards {
-        width: 90%;
+        width: 100%;
     }
 
     .adotar {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .adotar-cards {
