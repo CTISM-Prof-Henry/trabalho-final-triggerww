@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Patinhas - Início</title>
-    <link rel="stylesheet" href="../css/protetor.css">
+    <link rel="stylesheet" href="../css/login.css">
     <link rel="shortcut icon" href="../images/patinha.png" type="image/png">
 </head>
 <body>
@@ -18,8 +18,8 @@
             <ul>
                 <li><a href="../index.html">Início</a></li>
                 <li><a href="adotar.html">Adotar</a></li>
-                <li id="pc-li"><a href="protetor-login.html" id="ativo">Área do Protetor</a></li>
-                <li id="mobile-li"><a href="protetor-login.html" id="ativo">Protetor</a></li>
+                <li id="pc-li"><a href="login.html" id="ativo">Área do Protetor</a></li>
+                <li id="mobile-li"><a href="login.html" id="ativo">Protetor</a></li>
             </ul>
         </nav>
 
@@ -39,23 +39,28 @@
             </header>
 
             <form class="login">
-                <section class="login-conteudo">
+                <div class="login-conteudo">
                     <label>E-mail</label>
                     <div class="login-input">
                         <img src="../images/email.png">
-                        <input type="text" placeholder="Digite seu E-mail" required>
+                        <input type="text" placeholder="seu@email.com" id="email" required>
                     </div>
-                </section>
+                </div>
 
-                <section class="login-conteudo">
+                <div class="login-conteudo">
                     <label>Senha</label>
                     <div class="login-input">
                         <img src="../images/senha.png">
-                        <input type="password" placeholder="Digite sua senha" required>
+                        <input type="password" placeholder="sua senha" id="senha" required>
                     </div>
-                </section>
+                </div>
 
-                <input type="submit" value="Entrar">
+                <input class="btn-login" type="submit" value="Entrar"></input>
+
+                <div class="cadastro">
+                    <span>Ainda não tem cadastro?</span>
+                    <a href="#">Cadastre sua ONG ou perfil de protetor</a>
+                </div>
             </form>
         </article>
     </main>
