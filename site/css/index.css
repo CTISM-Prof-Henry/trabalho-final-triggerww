@@ -249,7 +249,7 @@ article {
     border: 1px solid #e5e7eb;
     border-radius: 15px;
     background-color: white;
-    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
 }
 
 .destaque-cards img {
@@ -387,7 +387,8 @@ footer {
     padding: 50px;
     padding-inline: 5%;
     align-items: center;
-    border-top: 1px solid #e5e7eb;
+    border-top: 1px solid var(--cor-bordas);
+    background-color: white;
 }
 
 footer header {
