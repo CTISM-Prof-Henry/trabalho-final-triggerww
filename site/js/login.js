@@ -14,7 +14,7 @@ function login(event) {
         botao.value = 'Logando';
 
         setTimeout(() => {
-            location.href = "cadastrar-pet.html";
+            location.href = "adotar-protetor.html";
         }, 1000);
     } else {
         botao.style.background = 'var(--erro)';
