@@ -452,8 +452,12 @@ footer span {
         padding-inline: 5%;
     }
 
-    .btn-intro {
-        justify-content: center;
+    .intro-conteudo p {
+        width: 100%;
+    }
+
+    .btn-como-funciona {
+        display: none;
     }
 
     .destaque {
