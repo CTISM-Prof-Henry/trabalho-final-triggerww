@@ -448,6 +448,12 @@ footer span {
 
     .intro {
         margin-top: 10%;
+        text-align: left;
+        padding-inline: 5%;
+    }
+
+    .btn-intro {
+        justify-content: center;
     }
 
     .destaque {
