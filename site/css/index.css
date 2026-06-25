@@ -15,6 +15,8 @@
 
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
@@ -27,11 +29,22 @@ a {
     color: var(--cor-principal-500);
 }
 
+html, body {
+    height: 100%;
+}
+
+main {
+    flex: 1;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: #E8F0FF;
     background: linear-gradient(135deg, rgba(232, 240, 255, 1) 0%, rgba(250, 252, 255, 1) 50%, rgba(255, 255, 255, 1) 100%);
     user-select: none;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 body.modo-escuro {
@@ -504,10 +517,6 @@ footer p {
 footer span {
     font-size: 0.8rem;
     color: var(--cor-texto);
-}
-
-body.modo-escuro footer p, footer span {
-    color: var(--cor-principal-50);
 }
 
 @media (max-width: 767px) {
