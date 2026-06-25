@@ -7,8 +7,8 @@
     --cor-titulo-800: #171c24;
     --cor-texto: #6B7280;
     --cor-bordas: #e5e7eb;
-    --confirmar: #008000;
-    --erro: #ff0000;
+    --cor-bordas-escuras: #2D2D2D;
+    --header-escuro: #1E1E1E;
 }
 
 * {
@@ -31,6 +31,10 @@ body {
     background: linear-gradient(135deg, rgba(232, 240, 255, 1) 0%, rgba(250, 252, 255, 1) 50%, rgba(255, 255, 255, 1) 100%);
 }
 
+body.modo-escuro {
+    background: #121212;
+}
+
 .cabecalho {
     position: fixed;
     display: flex;
@@ -42,8 +46,13 @@ body {
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
-    border: 1px solid var(--cor-bordas);
+    border-bottom: 1px solid var(--cor-bordas);
     background-color: white;
+}
+
+body.modo-escuro .cabecalho {
+    background-color: var(--header-escuro);
+    border-bottom: 1px solid var(--cor-bordas-escuras);
 }
 
 .logo {
@@ -69,6 +78,10 @@ nav {
     color: var(--cor-titulo-500);
 }
 
+body.modo-escuro nav {
+    color: var(--cor-principal-50);
+}
+
 nav ul {
     display: flex;
     list-style: none;
@@ -79,7 +92,7 @@ nav ul {
 nav ul li {
     padding: 20px;
     padding-inline: 20px;
-    border-bottom: 2px solid var(--cor-bordas);
+    border-bottom: 2px solid #ffffff00;
     transition: all 0.1s ease-out;
 }
 
@@ -89,7 +102,7 @@ nav ul li:hover {
     transition: all 0.1s ease-out;
 }
 
-.btn-apoie {
+.btn-tema {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,38 +112,38 @@ nav ul li:hover {
     padding-block: 10px;
     padding-inline: 15px;
     transition: all 0.2s ease-out;
+    font-size: 0.9rem;
 }
 
-.btn-apoie:hover {
+.btn-tema:hover {
     background-color: var(--cor-principal-600);
     transition: all 0.2s ease-out;
+    cursor: pointer;
 }
 
-.btn-apoie {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--cor-principal-500);
-    color: white;
-    border-radius: 50px;
-    padding-block: 10px;
-    padding-inline: 15px;
-    transition: all 0.2s ease-out;
-}
-
-.btn-apoie-cora {
-    width: 15px;
-    height: 15px;
+.btn-trocar-tema {
+    width: 18px;
+    height: 18px;
     margin-right: 5px;
-    background-image: url('../images/coracao.png');
+    background-image: url('../images/lua-crescente.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     transition: all 0.2s ease-out;
 }
 
-.btn-apoie:hover .btn-apoie-cora {
-    background-image: url('../images/coracao-ativo.png');
+.btn-tema:hover .btn-trocar-tema {
+    background-image: url('../images/lua-crescente-ativa.png');
+    transition: all 0.2s ease-out;
+}
+
+body.modo-escuro .btn-trocar-tema {
+    background-image: url('../images/sol.png');
+    transition: all 0.2s ease-out;
+}
+
+body.modo-escuro .btn-tema:hover .btn-trocar-tema {
+    background-image: url('../images/sol-ativo.png');
     transition: all 0.2s ease-out;
 }
 
@@ -149,6 +162,10 @@ article {
     margin-bottom: 2%;
     color: var(--cor-titulo-500);
     font-size: 0.9rem;
+}
+
+body.modo-escuro .protetor-info {
+    color: var(--cor-principal-500);
 }
 
 .protetor-background {
@@ -171,6 +188,10 @@ article {
     color: var(--cor-texto);
 }
 
+body.modo-escuro .protetor-info p {
+    color: var(--cor-principal-50);
+}
+
 .login {
     display: flex;
     width: 30%;
@@ -183,6 +204,11 @@ article {
     padding-block: 40px;
     padding-inline: 30px;
     box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+body.modo-escuro .login {
+    background-color: var(--header-escuro);
+    border: 1px solid var(--cor-bordas-escuras);
 }
 
 .login-conteudo {
@@ -201,6 +227,11 @@ article {
     transition: all 0.2s ease-out;
 }
 
+body.modo-escuro .login-input {
+    background-color: var(--header-escuro);
+    border: 2px solid var(--cor-bordas-escuras);
+}
+
 .login-input img {
     width: 25px;
     padding-right: 10px;
@@ -213,6 +244,10 @@ input, p {
     background-color: inherit;
     color: var(--cor-titulo-500);
     transition: all 0.2s ease-out;
+}
+
+body.modo-escuro input, p {
+    color: var(--cor-principal-50);
 }
 
 .login-input:focus-within {
@@ -253,6 +288,7 @@ input, p {
     text-decoration: underline;
 }
 
+
 footer {
     font-size: 1rem;
     padding: 50px;
@@ -262,11 +298,20 @@ footer {
     background-color: white;
 }
 
+body.modo-escuro footer {
+    border-top: 1px solid var(--cor-bordas-escuras);
+    background-color: var(--header-escuro);
+}
+
 footer header {
     display: flex;
     justify-content: baseline;
     align-items: center;
     color: var(--cor-titulo-800);
+}
+
+body.modo-escuro footer header {
+    color: var(--cor-principal-50);
 }
 
 footer img {

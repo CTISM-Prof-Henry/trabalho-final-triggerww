@@ -143,6 +143,7 @@ nav ul li:hover {
 
 body.modo-escuro .btn-trocar-tema {
     background-image: url('../images/sol.png');
+    transition: all 0.2s ease-out;
 }
 
 body.modo-escuro .btn-tema:hover .btn-trocar-tema {
