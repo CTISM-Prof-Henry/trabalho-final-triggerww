@@ -8,13 +8,13 @@
     <link rel="shortcut icon" href="images/patinha.png" type="image/png">
 </head>
 <body>
-    <header class="cabecalho">
+    <header class="cabecalho" id="cabecalho">
         <div class="logo">
             <img src="images/patinha.png" alt="Logo Patinhas">
-            <h1>Patinhas</h1>
+            <h1 id="logo-texto">Patinhas</h1>
         </div>
 
-        <nav>
+        <nav id="nav-escuro">
             <ul>
                 <li><a href="index.html" id="ativo">Início</a></li>
                 <li><a href="pages/adotar.html">Adotar</a></li>
@@ -23,10 +23,10 @@
             </ul>
         </nav>
 
-        <a href="#" class="btn-apoie">
-            <div class="btn-apoie-cora"></div>
-            <span>Apoie patinhas</span>
-        </a>
+        <div class="btn-tema" id="tema">
+            <div id="btn-trocar-tema"></div>
+            <span>Trocar tema</span>
+        </div>
     </header>
     <main>
         <article>
@@ -194,7 +194,6 @@
         <span>© 2026 Patinhas. Nenhum direito reservado, todas as informações desse site são fictícias.</span>
     </footer>
 
-    <script>
-    </script>
+    <script src="js/tema.js"></script>
 </body>
 </html>
