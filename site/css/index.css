@@ -136,8 +136,18 @@ nav ul li:hover {
     transition: all 0.2s ease-out;
 }
 
+.btn-tema:hover .btn-trocar-tema {
+    background-image: url('../images/lua-crescente-ativa.png');
+    transition: all 0.2s ease-out;
+}
+
 body.modo-escuro .btn-trocar-tema {
     background-image: url('../images/sol.png');
+}
+
+body.modo-escuro .btn-tema:hover .btn-trocar-tema {
+    background-image: url('../images/sol-ativo.png');
+    transition: all 0.2s ease-out;
 }
 
 article {
