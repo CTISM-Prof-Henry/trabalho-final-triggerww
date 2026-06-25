@@ -527,9 +527,6 @@ footer span {
 
     .cabecalho {
         padding-inline: 1%;
-    }
-
-    .cabecalho {
         justify-content: center;
     }
 
@@ -554,7 +551,8 @@ footer span {
     }
 
     .intro {
-        margin-top: 10%;
+        margin-top: 30%;
+        padding-bottom: 30%;
         text-align: left;
         padding-inline: 5%;
     }

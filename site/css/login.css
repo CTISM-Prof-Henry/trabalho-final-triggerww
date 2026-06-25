@@ -355,11 +355,8 @@ footer span {
     }
 
     .cabecalho {
-        padding-inline: 1%;
-    }
-
-    .cabecalho {
         justify-content: center;
+        padding-inline: 1%;
     }
 
     .logo h1 {

@@ -51,6 +51,14 @@ body.modo-escuro {
     background: #121212;
 }
 
+.ocultar {
+    display: none;
+}
+
+.ocultar-img {
+    display: none;
+}
+
 .cabecalho {
     position: fixed;
     display: flex;
@@ -521,6 +529,18 @@ footer span {
         font-size: 14px;
     }
 
+    .ocultar {
+        display: block;
+    }
+
+    .ocultar-img {
+        display: block;
+        width: 100%;
+        margin: auto;
+        margin-top: 5%;
+        
+    }
+
     .cabecalho {
         padding-inline: 1%;
     }
@@ -535,6 +555,10 @@ footer span {
 
     .titulos {
         margin-top: 20%;
+    }
+
+    .griffin {
+        margin-top: 50%;
     }
 
     article {
@@ -553,6 +577,18 @@ footer span {
         display: none;
     }
 
+    #cadastrar {
+        display: none;
+    }
+
+    .ocultar-footer {
+        display: none;
+    }
+
+    .ocultar-titulo {
+        display: none;
+    }
+    
     footer {
         font-size: 0.8rem;
     }
