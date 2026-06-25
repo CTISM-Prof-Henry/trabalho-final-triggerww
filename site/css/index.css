@@ -125,7 +125,7 @@ article {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding-block: 10%;
+    padding-block: 8%;
     border-bottom: 1px solid var(--cor-bordas);
 }
 
