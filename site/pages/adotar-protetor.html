@@ -17,9 +17,9 @@
         <nav>
             <ul>
                 <li><a href="../index.html">Início</a></li>
-                <li><a href="adotar.html" id="ativo">Adotar</a></li>
-                <li id="pc-li"><a href="login.html">Área do Protetor</a></li>
-                <li id="mobile-li"><a href="login.html">Protetor</a></li>
+                <li><a href="adotar.html">Adotar</a></li>
+                <li id="pc-li"><a href="login.html"  id="ativo">Área do Protetor</a></li>
+                <li id="mobile-li"><a href="login.html" id="ativo">Protetor</a></li>
             </ul>
         </nav>
 
@@ -35,28 +35,55 @@
                 <p>Cadastre e remova pets que estão para adoção</p>
             </header>
 
-            <form class="cadastro">
-                <h1>Cadastrar pet</h1>
-                <div class="cadastro-conteudo">
-                    <label>Nome</label>
-                    <input type="text" placeholder="Ex:. Rex" id="email" required>
+            <div id="fundo">
+                <form class="cadastro" id="cadastro">
+                    <h1>Cadastrar pet</h1>
+                    <div class="cadastro-linha">
+                        <div class="cadastro-conteudo">
+                            <label>Nome</label>
+                            <input type="text" placeholder="Ex: Rex" id="nome" required>
+                        </div>  
 
-                    <label>Espécie</label>
-                    <input type="text" placeholder="Ex:. Rex" id="email" required>
-
-                    <label>Raça</label>
-                    <input type="text" placeholder="Ex:. Rex" id="email" required>
+                        <div class="cadastro-conteudo">
+                            <label>Espécie</label>
+                            <select name="Espécie" required>
+                                <option value="cachorro">Cachorro</option>
+                                <option value="gato">Gato</option>
+                                <option value="jacare">Jacaré</option>
+                                <option value="roedor">Roedor</option>
+                                <option value="dragao">Dragão</option>
+                            </select>
+                        </div>     
+                    </div>
                     
-                    <label>Idade</label>
-                    <input type="text" placeholder="Ex:. Rex" id="email" required>
-                    <label>Sexo</label>
-                    <input type="text" placeholder="Ex:. Rex" id="email" required>
-                </div>
-            </form>
+                    <div class="cadastro-linha">
+                        <div class="cadastro-conteudo">
+                            <label>Raça</label>
+                            <input type="text" placeholder="Ex: Shiba, SDR" id="nome" required>
+                        </div> 
+                        <div class="cadastro-conteudo">
+                            <label>Idade</label>
+                            <input type="text" placeholder="Ex: 2 Meses" required>
+                        </div>
+                    </div>
+
+                    <div class="cadastro-conteudo">
+                        <label>Contatos</label>
+                        <input type="text" placeholder="E-mail, número de telefone" required>
+                    </div>
+
+                    <div class="cadastro-conteudo">
+                        <label>URL da foto</label>
+                        <input type="text" placeholder="https://exemplo.com/foto.jpg" required>
+                    </div>
+                    <input type="submit" value="Cadastrar" id="btn-cadastro">
+                    <input type="submit" value="Cancelar" id="btn-cadastro">
+                </form>
+            </div>
         </article>
     </main>
 
-    <a href="" class="cadastrar">+</a>
+    <div id="cadastrar">+</div>
 
     <footer>
         <header>
@@ -67,7 +94,7 @@
         <span>© 2026 Patinhas. Nenhum direito reservado, todas as informações desse site são fictícias.</span>
     </footer>
 
-    <script src="../js/login.js"></script>
     <script src="../js/tema.js"></script>
+    <script src="../js/cadastro.js"></script>
 </body>
 </html>

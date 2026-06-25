@@ -31,6 +31,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background: #E8F0FF;
     background: linear-gradient(135deg, rgba(232, 240, 255, 1) 0%, rgba(250, 252, 255, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    user-select: none;
 }
 
 body.modo-escuro {
@@ -277,6 +278,135 @@ body.modo-escuro .titulos p {
     color: var(--cor-principal-50);
 }
 
+.cadastro {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid var(--cor-bordas);
+    border-radius: 15px;
+    padding: 20px;
+    width: 40%;
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+}
+
+.cadastro h1 {
+    color: var(--cor-titulo-500);
+    margin-block: 2%;
+    text-align: center;
+}
+
+.cadastro label {
+    color: var(--cor-texto);
+    margin-top: 2%;
+}
+
+.cadastro input, select {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid var(--cor-bordas);
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    transition: all 0.2s ease-out;
+}
+
+body.modo-escuro .cadastro input {
+    background-color: var(--header-escuro);
+    border: 2px solid var(--cor-bordas-escuras);
+}
+
+input, p, select {
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    background-color: inherit;
+    color: var(--cor-titulo-500);
+    transition: all 0.2s ease-out;
+}
+
+.cadastro-linha {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.cadastro-conteudo {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: left;
+}
+
+body.modo-escuro input, p {
+    color: var(--cor-principal-50);
+}
+
+.cadastro input:focus-within {
+    border: 2px solid var(--cor-principal-500);
+}
+
+select {
+    border: 2px solid var(--cor-bordas);
+    background-color: whitesmoke;
+}
+
+select:focus {
+    border: 2px solid var(--cor-principal-500);
+}
+
+#btn-cadastro {
+    background-color: var(--cor-principal-500);
+    color: white;
+    font-size: 1rem;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 10px;
+    border-radius: 50px;
+    transition: all 0.2s ease-out;
+    width: auto;
+    padding: 10px 40px;
+    margin: 10px auto 0;
+    display: block;
+}
+
+#btn-cadastro:hover {
+    background-color: var(--cor-principal-600);
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+}
+
+#cadastrar {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--cor-principal-500);
+    color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    transition: all 0.2s ease-out;
+    font-size: 2rem;
+}
+
+#cadastrar:hover {
+    background-color: var(--cor-principal-600);
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+}
 
 footer {
     font-size: 1rem;
@@ -291,6 +421,16 @@ body.modo-escuro footer {
     border-top: 1px solid var(--cor-bordas-escuras);
     background-color: var(--header-escuro);
 }
+
+#fundo {
+    display: none;
+    position: fixed;
+    inset: 0;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 999;
+}
+
 
 footer header {
     display: flex;
