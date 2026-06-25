@@ -9,6 +9,8 @@
     --cor-bordas: #e5e7eb;
     --cor-bordas-escuras: #2D2D2D;
     --header-escuro: #1E1E1E;
+     --confirmar: #008000;
+    --erro: #ff0000;
 }
 
 * {
