@@ -97,6 +97,7 @@ nav ul li:hover {
     padding-block: 10px;
     padding-inline: 15px;
     transition: all 0.2s ease-out;
+    font-size: 0.9rem;
 }
 
 .btn-tema:hover {
@@ -106,8 +107,8 @@ nav ul li:hover {
 }
 
 #btn-trocar-tema {
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     margin-right: 5px;
     background-image: url('../images/lua-crescente.png');
     background-size: contain;
@@ -427,7 +428,7 @@ footer span {
         display: none;
     }
 
-    .btn-apoie {
+    .btn-tema {
         display: none;
     }
 
