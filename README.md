@@ -14,14 +14,14 @@ O projeto deve ser publicado no **GitHub Pages** e apresentado em aula para o pr
 
 * [x] meu site tem pelo menos um arquivo do tipo `.html` 
 * [x] estou usando CSS externo, em um arquivo separado `.css`
-* [ ] estou usando Javascript externo, em um arquivo separado `.js`
+* [x] estou usando Javascript externo, em um arquivo separado `.js`
 * [x] os arquivos do meu site estão na pasta `site`
 * [x] a pasta `site` tem um arquivo `index.html`, que é a página inicial do meu site; sem esse arquivo, o GitHub Pages 
       não vai funcionar
 * [x] estou ciente que, se eu modificar ou excluir arquivos que não estejam na pasta `site` 
       (por exemplo, `.github` ou `README.md`), isso pode afetar o funcionamento do meu site
-* [ ] respondi todas as perguntas e preenchi todos os checkboxes abaixo
-* [ ] meu site está hospedado no GitHub Pages, no link `<escreva aqui o link do seu site>`
+* [x] respondi todas as perguntas e preenchi todos os checkboxes abaixo
+* [x] meu site está hospedado no GitHub Pages, no link `<https://ctism-prof-henry.github.io/trabalho-final-triggerww/site/>`
 
 ## 📖 Descrição do projeto
 
@@ -35,12 +35,12 @@ Descreva abaixo **sobre o que se trata seu site:**
 
 Se você utilizou uma IA, marque a caixa abaixo e preencha os campos:
 
-* [ ] declaro que utilizei uma IA para me auxiliar na elaboração do trabalho, mas que domino os conceitos vistos em aula
+* [x] declaro que utilizei uma IA para me auxiliar na elaboração do trabalho, mas que domino os conceitos vistos em aula
   e saberei explicá-los quando indagado pelo professor.
 
 * **IA utilizada:**
 * **Forma de utilização da IA:**
-  * [ ] fiz perguntas pontuais à IA, mas eu programei o código do meu site
+  * [x] fiz perguntas pontuais à IA, mas eu programei o código do meu site
   * [ ] dei um prompt para a IA, ela me deu um código e eu colei o código nos arquivos do meu site
 
 ## 🧩 Componentes HTML utilizados
@@ -65,7 +65,7 @@ Marque com `[x]` os elementos que **foram implementados no seu site**. Você nã
 - [x] `<section>`
 - [x] `<article>`
 - [ ] `<aside>`
-- [ ] `<footer>`
+- [x] `<footer>`
 
 #### Conteúdo
 
@@ -79,10 +79,10 @@ Marque com `[x]` os elementos que **foram implementados no seu site**. Você nã
 
 #### Formulários
 
-- [ ] `<form>`
-- [ ] `<input>`
-- [ ] `<label>`
-- [ ] `<textarea>`
+- [x] `<form>`
+- [x] `<input>`
+- [x] `<label>`
+- [x] `<textarea>`
 - [ ] `<button>`
 
 ### 🎨 CSS
@@ -102,13 +102,13 @@ Marque com `[x]` os elementos que **foram implementados no seu site**. Você nã
 ## ⚙️ JavaScript
 
 - [ ] Manipulação do DOM
-- [ ] Eventos (`click`, `submit`, etc.)
+- [x] Eventos (`click`, `submit`, etc.)
 - [ ] Validação de formulário
 - [ ] Alteração dinâmica de conteúdo
-- [ ] Uso de funções
+- [x] Uso de funções
 - [ ] Uso de arrays ou objetos
 - [ ] Uso de `fetch` ou API externa
-- [ ] local Storage
+- [x] local Storage
 
 
 ## 📂 Estrutura do projeto
@@ -140,6 +140,6 @@ site/
 
 Utilize este espaço para comentar:
 
-- dificuldades encontradas
-- decisões de design
-- melhorias que podem ser feitas no futuro
+- dificuldades encontradas: Algumas dificuldades em ajustar elementos no css, e principalmete no Javascript por não ter tanto conhecimento.
+- decisões de design: Talvez por não ter tanto criatividade acabei optando por usar apenas tons de azul, e também usei bordas arredondadas em praticamente tudo.
+- melhorias que podem ser feitas no futuro: Integrar um banco de dados, e também algum modal para mostrar mais informações dos pets.
