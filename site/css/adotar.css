@@ -11,6 +11,7 @@
     --header-escuro: #1E1E1E;
     --confirmar: #008000;
     --erro: #ff0000;
+    --erro-escuro: #d50000;
 }
 
 * {
@@ -294,15 +295,25 @@ body.modo-escuro .titulos p {
     flex-direction: row;
 }
 
+body.modo-escuro .cadastro {
+    background-color: var(--header-escuro);
+    border: 1px solid var(--cor-bordas-escuras);
+}
+
 .cadastro h1 {
     color: var(--cor-titulo-500);
     margin-block: 2%;
     text-align: center;
 }
 
+body.modo-escuro .cadastro h1 {
+    color: var(--cor-principal-500);
+}
+
 .cadastro label {
     color: var(--cor-texto);
     margin-top: 2%;
+    text-align: center;
 }
 
 .cadastro input, select {
@@ -345,7 +356,7 @@ input, p, select {
     align-items: left;
 }
 
-body.modo-escuro input, p {
+body.modo-escuro input, p, select {
     color: var(--cor-principal-50);
 }
 
@@ -356,10 +367,22 @@ body.modo-escuro input, p {
 select {
     border: 2px solid var(--cor-bordas);
     background-color: whitesmoke;
+    color: var(--cor-texto);
+}
+
+body.modo-escuro select {
+    border: 2px solid var(--cor-bordas-escuras);
+    background-color: var(--header-escuro);
 }
 
 select:focus {
     border: 2px solid var(--cor-principal-500);
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
 }
 
 #btn-cadastro {
@@ -371,16 +394,40 @@ select:focus {
     align-items: center;
     justify-content: center;
     padding-block: 10px;
-    border-radius: 50px;
+    border-radius: 15px;
     transition: all 0.2s ease-out;
-    width: auto;
-    padding: 10px 40px;
-    margin: 10px auto 0;
+    width: 40%;
+    padding-inline: 20px;
+    margin: auto;
+    margin-top: 1.5%;
     display: block;
 }
 
 #btn-cadastro:hover {
     background-color: var(--cor-principal-600);
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+}
+
+#btn-cancelar {
+    background-color: var(--erro);
+    color: white;
+    font-size: 1rem;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 10px;
+    border-radius: 15px;
+    transition: all 0.2s ease-out;
+    width: 40%;
+    padding-inline: 20px;
+    margin: auto;
+    display: block;
+}
+
+#btn-cancelar:hover {
+    background-color: var(--erro-escuro);
     cursor: pointer;
     transition: all 0.2s ease-out;
 }
@@ -430,7 +477,6 @@ body.modo-escuro footer {
     background-color: rgba(0, 0, 0, 0.2);
     z-index: 999;
 }
-
 
 footer header {
     display: flex;

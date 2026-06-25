@@ -1,21 +1,21 @@
 const botao = document.getElementById('cadastrar');
+const formulario = document.getElementById('cadastro');
+const fundo = document.getElementById('fundo');
 
 function mostrar() {
-    let formulario = document.getElementById('cadastro');
-    let fundo = document.getElementById('fundo');
-
-    if(formulario.style.display == 'none') {
+    if (formulario.style.display === 'none' || formulario.style.display === '') {
         formulario.style.display = 'block';
         fundo.style.display = 'block';
-    } else {
+    } 
+}
+
+botao.addEventListener('click', mostrar);
+
+function fechar(event) {
+    if(event.target == fundo) {
         formulario.style.display = 'none';
         fundo.style.display = 'none';
     }
 }
 
-botao.addEventListener('click', mostrar);
-
-fundo.addEventListener('click', () => {
-    formulario.style.display = 'none';
-    fundo.style.display = 'none';
-});
+fundo.addEventListener('click', fechar)
