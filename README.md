@@ -21,7 +21,7 @@ O projeto deve ser publicado no **GitHub Pages** e apresentado em aula para o pr
 * [x] estou ciente que, se eu modificar ou excluir arquivos que não estejam na pasta `site` 
       (por exemplo, `.github` ou `README.md`), isso pode afetar o funcionamento do meu site
 * [x] respondi todas as perguntas e preenchi todos os checkboxes abaixo
-* [x] meu site está hospedado no GitHub Pages, no link `https://ctism-prof-henry.github.io/trabalho-final-triggerww/site/`
+* [x] meu site está hospedado no GitHub Pages, no link https://ctism-prof-henry.github.io/trabalho-final-triggerww/site/
 
 ## 📖 Descrição do projeto
 
