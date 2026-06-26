@@ -122,18 +122,23 @@ site/
 │
 ├── index.html
 ├── pages/
-│   ├── about.html
-│   └── contact.html
+│   ├── adotar-protetor.html
+│   ├── adotar.html
+│   └── login.html
 │
 ├── css/
-│   └── style.css
+│   ├── adotar.css
+│   ├── index.css
+│   └── login.css
 │
 ├── js/
-│   └── script.js
+│   ├── cadastro.js
+│   ├── login.js
+│   └── tema.js
 │
 └── images/
-    ├── logo.png
-    └── banner.jpg
+    ├── pets/
+    └── icones de interface.png
 ```
 
 ## 💡 Observações
