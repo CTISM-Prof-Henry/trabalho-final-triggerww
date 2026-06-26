@@ -29,7 +29,7 @@ Descreva abaixo **sobre o que se trata seu site:**
 
 - **Tema:** Site para adoção de pets. 
 - **Público-alvo:** Pessoas que querem adotar pets, e ONGs de adoção.
-- **Funcionalidades:** Catálogo de pets com filtros, busca de animais, visualização de informações detalhadas dos pets, login e cadastro para que ONGs consigam colocar pets para adoção.
+- **Funcionalidades:** Catálogo de pets com visualização de informações detalhadas(cards) dos pets, login e cadastro para que ONGs consigam colocar pets para adoção.
 
 ## Uso de IA
 
