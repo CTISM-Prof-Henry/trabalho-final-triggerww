@@ -12,7 +12,7 @@ function trocarTema() {
     if (document.body.classList.contains('modo-escuro')) {
         localStorage.setItem('tema', 'escuro');
     } else {
-        localStorage.setItem('tema', 'claro');
+        localStorage.removeItem('tema');
     }
 }
 
