@@ -40,22 +40,27 @@
 
             <form id="login">
                 <div class="login-conteudo">
-                    <label>E-mail</label>
+                    <label for="email">E-mail</label>
                     <div class="login-input">
                         <img src="../images/email.png">
-                        <input type="text" placeholder="seu@email.com" id="email" required>
+                        <input type="email" placeholder="seu@email.com" name="email" id="email" required>
                     </div>
                 </div>
 
                 <div class="login-conteudo">
-                    <label>Senha</label>
+                    <label for="senha">Senha</label>
                     <div class="login-input">
                         <img src="../images/senha.png">
-                        <input type="password" placeholder="sua senha" id="senha" required>
+                        <input type="password" placeholder="sua senha" name="senha" id="senha" required>
                     </div>
                 </div>
 
                 <input id="btn-registrar" type="submit" value="Registrar">
+
+                <div class="cadastro">
+                    <span>Já tem cadastro?</span>
+                    <a href="login.html">Entre na sua conta aqui</a>
+                </div>
             </form>
         </article>
     </main>
