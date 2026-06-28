@@ -30,7 +30,7 @@ a {
 }
 
 html, body {
-    height: 100%;
+    min-height: 100%;
 }
 
 main {
@@ -39,10 +39,11 @@ main {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #E8F0FF;
-    background: linear-gradient(135deg, rgba(232, 240, 255, 1) 0%, rgba(250, 252, 255, 1) 50%, rgba(255, 255, 255, 1) 100%);
-    user-select: none;
     min-height: 100vh;
+    background: linear-gradient(135deg, #E8F0FF 0%, #FAFCFF 50%, #FFFFFF 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    user-select: none;
     display: flex;
     flex-direction: column;
 }
