@@ -27,7 +27,7 @@ function registrar(event) {
             btn_registro.style.color = 'var(--cor-principal-500)';
             btn_registro.style.border = '2px solid var(--cor-principal-500)';
             btn_registro.value = 'Registrar'
-        }, 1000);
+        }, 1500);
     }
 }
 
