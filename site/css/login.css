@@ -401,13 +401,13 @@ footer span {
         margin-top: 30%;
     }
     
-    .login {
+    #login {
         width: 90%;
         border: none;
         box-shadow: none;
     }
 
-    body.modo-escuro .login{
+    body.modo-escuro #login{
         width: 90%;
         border: none;
         box-shadow: none;
