@@ -1,5 +1,5 @@
 const form = document.getElementById('login');
-const btn_login = document.getElementById('btn-login');
+const btn = document.getElementById('btn-login');
 
 function login(event) {
     event.preventDefault();
@@ -8,19 +8,19 @@ function login(event) {
     const login = localStorage.getItem(email);
 
     if(senha === login) {
-        btn_login.style.backgroundColor = 'var(--confirmar)';
-        btn_login.value = 'Logando';
+        btn.style.backgroundColor = 'var(--confirmar)';
+        btn.value = 'Logando';
 
         setTimeout(() => {
             location.href = 'adotar-protetor.html';
         }, 1000);
     } else {
-        btn_login.style.backgroundColor = 'var(--erro)';
-        btn_login.value = 'Login inválido';
+        btn.style.backgroundColor = 'var(--erro)';
+        btn.value = 'Login inválido';
 
         setTimeout(() => {
-            btn_login.style.backgroundColor = 'var(--cor-principal-500)';
-            btn_login.value = 'Entrar';
+            btn.style.backgroundColor = 'var(--cor-principal-500)';
+            btn.value = 'Entrar';
         }, 1500);
     }
 }
