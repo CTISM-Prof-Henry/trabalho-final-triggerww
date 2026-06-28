@@ -307,6 +307,13 @@ body.modo-escuro input, p {
     cursor: pointer;
 }
 
+body.modo-escuro #btn-registrar {
+    background-color: var(--header-escuro);
+}
+body.modo-escuro #btn-registrar:hover {
+    background-color: var(--cor-principal-600);
+}
+
 .cadastro {
     margin-top: 5%;
     text-align: center;
