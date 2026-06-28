@@ -1,8 +1,6 @@
-let botaoTema = document.getElementById('tema');
+const salvo = localStorage.getItem('tema');
 
-const temaSalvo = localStorage.getItem('tema');
-
-if (temaSalvo === 'escuro') {
+if (salvo === 'escuro') {
     document.body.classList.add('modo-escuro');
 }
 
@@ -16,4 +14,4 @@ function trocarTema() {
     }
 }
 
-botaoTema.addEventListener('click', trocarTema);
+document.getElementById('tema').addEventListener('click', trocarTema);
