@@ -94,5 +94,10 @@
 
     <script src="../js/tema.js"></script>
     <script src="../js/cadastro.js"></script>
+    <script>
+        if(localStorage.getItem(status) !== 'logado') {
+            location.href = 'login.html';
+        }
+    </script>
 </body>
 </html>

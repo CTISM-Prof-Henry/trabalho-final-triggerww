@@ -10,6 +10,7 @@ function login(event) {
     if(senha === login) {
         btn.style.backgroundColor = 'var(--confirmar)';
         btn.value = 'Logando';
+        localStorage.setItem(status, 'logado');
 
         setTimeout(() => {
             location.href = 'adotar-protetor.html';
