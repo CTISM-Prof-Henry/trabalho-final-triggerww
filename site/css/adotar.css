@@ -636,6 +636,7 @@ footer span {
 
     .titulos {
         margin-top: 20%;
+        margin-bottom: 5%;
     }
 
     .griffin {
@@ -676,5 +677,13 @@ footer span {
 
     footer span {
         font-size: 0.7rem;
+    }
+
+    .adotar-cards {
+    flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
     }
 }

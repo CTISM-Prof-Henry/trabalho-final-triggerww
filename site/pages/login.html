@@ -76,5 +76,10 @@
 
     <script src="../js/login.js"></script>
     <script src="../js/tema.js"></script>
+    <script>
+        if(localStorage.getItem(status) === 'logado') {
+            location.href = 'adotar-protetor.html';
+        }
+    </script>
 </body>
 </html>
