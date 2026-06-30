@@ -79,4 +79,11 @@ function excluir_pet(i) {
     mostrar_pet();
 }
 
+function sair() {
+    localStorage.removeItem(status);    
+    window.location.reload();
+}
+
+document.getElementById('btn-sair').addEventListener('click', sair);
+
 mostrar_pet();
