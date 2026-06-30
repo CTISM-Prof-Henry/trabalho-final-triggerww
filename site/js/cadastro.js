@@ -22,11 +22,59 @@ function registrar_pet() {
     const contato = document.getElementById('contato').value; 
     const imagem = document.getElementById('url').value;
 
-    const pet = [
+    const pet = {
         nome, especie, raca, idade, contato, imagem
-    ];
+    };
 
-    localStorage.setItem(nome, JSON.stringify(pet));
+    const pets = JSON.parse(localStorage.getItem("pets")) || [];
+    pets.push(pet);
+
+    localStorage.setItem("pets", JSON.stringify(pets));
+
+    mostrar_pet();
 }
 
 document.getElementById('btn-cadastro').addEventListener('click', registrar_pet);
+
+function mostrar_pet() {
+    const lista = document.querySelector('.adotar-cards');
+
+    const pets = JSON.parse(localStorage.getItem("pets")) || [];
+
+    lista.innerHTML = "";
+
+    pets.forEach((pet, i) => {
+    const card = document.createElement("div");
+    card.classList.add("card");
+
+    card.innerHTML = `
+        <img src="${pet.imagem}" alt="${pet.nome}">
+        <h2>${pet.nome}</h2>
+        <p>Espécie: ${pet.especie}</p>
+        <p>Raça: ${pet.raca}</p>
+        <p>Idade: ${pet.idade}</p>
+        <p>Contato: ${pet.contato}</p>
+        `;
+
+        lista.appendChild(card);
+
+        const botao = card.querySelector(".btn-excluir");
+        botao.addEventListener("click", () => {
+            excluir_pet(i);
+        });
+
+        lista.appendChild(card);
+    });
+}
+
+function excluir_pet(i) {
+    const pets = JSON.parse(localStorage.getItem("pets")) || [];
+
+    pets.splice(i, 1);
+
+    localStorage.setItem("pets", JSON.stringify(pets));
+    
+    mostrar_pet();
+}
+
+mostrar_pet();
