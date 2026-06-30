@@ -140,6 +140,9 @@ nav ul li:hover {
 }
 
 #btn-sair {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 10px;
     background-color: var(--erro);
     color: white;
@@ -148,6 +151,11 @@ nav ul li:hover {
     padding-inline: 20px;
     transition: all 0.2s ease-out;
     font-size: 0.9rem;
+}
+
+#btn-sair img {
+    width: 18px;
+    margin-right: 5px;
 }
 
 #btn-sair:hover {
