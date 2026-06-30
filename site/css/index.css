@@ -295,7 +295,7 @@ body.modo-escuro .titulos p {
 .destaque {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     gap: 20px;
 }
 
@@ -346,7 +346,7 @@ body.modo-escuro .destaque-conteudo p{
     color: white;
     padding-block: 10px;
     margin-inline: 25px;
-    margin-top: 25px;
+    margin-top: 15px;
     border-radius: 15px;
     transition: all 0.2s ease-out;
 }

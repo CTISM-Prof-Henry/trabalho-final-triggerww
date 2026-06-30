@@ -11,11 +11,13 @@ function mostrar_pet() {
 
     card.innerHTML = `
         <img src="${pet.imagem}" alt="${pet.nome}">
-        <h2>${pet.nome}</h2>
-        <p>Espécie: ${pet.especie}</p>
-        <p>Raça: ${pet.raca}</p>
-        <p>Idade: ${pet.idade}</p>
-        <p>Contato: ${pet.contato}</p>
+        <div class="card-conteudo">
+        <h3>${pet.nome}</h3>
+        <p>${pet.especie} • ${pet.raca}</p>
+        <p>${pet.idade} • ${pet.sexo}</p>
+        <p class="contato">Contato: ${pet.contato}</p>
+        <a href="mailto:${pet.contato}" class="btn-contato">Entrar em contato</a>
+        </div>
         `;
 
         lista.appendChild(card);

@@ -39,63 +39,82 @@
                 <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3VteW5hN2M1NXVjZzRmcTkyYWJsYndwaGZncXYzZTA4NXl1ZTI1biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yYSSBtDgbbRzq/giphy.gif" class="ocultar-img">
             </header>
 
-            <div id="fundo">
-                <form id="cadastro">
-                    <h1>Cadastrar pet</h1>
-                    <div class="cadastro-linha">
-                        <div class="cadastro-conteudo">
-                            <label for="nome">Nome</label>
-                            <input type="text" placeholder="Ex: Rex" id="nome" required>
-                        </div>  
-
-                        <div class="cadastro-conteudo">
-                            <label for="especie">Espécie</label>
-                            <select name="especie" id="especie" required>
-                                <option value="cachorro">Cachorro</option>
-                                <option value="gato">Gato</option>
-                                <option value="jacare">Jacaré</option>
-                                <option value="roedor">Roedor</option>
-                                <option value="dragao">Dragão</option>
-                            </select>
-                        </div>     
-                    </div>
-                    
-                    <div class="cadastro-linha">
-                        <div class="cadastro-conteudo">
-                            <label for="raca">Raça</label>
-                            <input type="text" placeholder="Ex: Shiba, SDR" name="raca" id="raca" required>
-                        </div> 
-                        <div class="cadastro-conteudo">
-                            <label for="idade">Idade</label>
-                            <input type="text" placeholder="Ex: 2 Meses" name="idade" id="idade" required>
-                        </div>
-                    </div>
-
-                    <div class="cadastro-conteudo">
-                        <label for="contato">Contatos</label>
-                        <input type="email" placeholder="E-mail para contato" name="contato" id="contato" required>
-                    </div>
-
-                    <div class="cadastro-conteudo">
-                        <label for="url">URL da foto</label>
-                        <input type="url" placeholder="https://exemplo.com/foto.jpg" name="url" id="url" required>
-                    </div>
-
-                    <div class="botoes">
-                        <button id="btn-cadastro">Cadastrar</button>
-                        <button id="btn-cancelar">Cancelar</button>
-                    </div>
-                </form>
+            <div class="adotar-cards">
+                <button class="btn-excluir"></button>
             </div>
+
+            <div id="cadastrar">+</div>
+
         </article>
     </main>
+    
 
-    <div class="adotar">
-        <div class="adotar-cards"></div>
+    <div id="fundo">
+        <form id="cadastro">
+            <h1>Cadastrar pet</h1>
+            <div class="cadastro-linha">
+                <div class="cadastro-conteudo">
+                    <label for="nome">Nome</label>
+                    <input type="text" placeholder="Ex: Rex" id="nome" required>
+                </div>  
+
+                <div class="cadastro-conteudo">
+                    <label for="especie">Espécie</label>
+                    <select name="especie" id="especie" required>
+                        <option value="Cachorro">Cachorro</option>
+                        <option value="Gato">Gato</option>
+                        <option value="Jacare">Jacaré</option>
+                        <option value="Roedor">Roedor</option>
+                        <option value="Dragao">Dragão</option>
+                    </select>
+                </div>     
+
+                <div class="cadastro-conteudo">
+                    <label for="sexo">Sexo</label>
+                    <select name="sexo" id="sexo" required>
+                        <option value="Macho">Macho</option>
+                        <option value="Fêmea">Fêmea</option>
+                    </select>
+                </div>     
+            </div>
+            
+            <div class="cadastro-linha">
+                <div class="cadastro-conteudo">
+                    <label for="raca">Raça</label>
+                    <input type="text" placeholder="Ex: Shiba, SDR" name="raca" id="raca" required>
+                </div> 
+                
+                <div class="cadastro-conteudo">
+                    <label for="idade">Idade</label>
+                    <input type="text" placeholder="Ex: 2 Meses" name="idade" id="idade" required>
+                </div>
+            </div>
+
+            <div class="cadastro-conteudo">
+                <label for="contato">Contatos</label>
+                <input type="email" placeholder="E-mail para contato" name="contato" id="contato" required>
+            </div>
+
+            <div class="cadastro-conteudo">
+                <label for="url">URL da foto</label>
+                <input type="url" placeholder="https://exemplo.com/foto.jpg" name="url" id="url" required>
+            </div>
+
+            <div class="botoes">
+                <button id="btn-cadastro">Cadastrar</button>
+                <button id="btn-cancelar">Cancelar</button>
+            </div>
+        </form>
     </div>
 
-    <div id="cadastrar">+</div>
-
+    <footer>
+        <header>
+            <img src="../images/patinha.png" alt="Logo">
+            <h3>Patinhas</h3>
+        </header>
+        <p>Ao adotar, você não apenas ganha um companheiro<br>fiel, mas também transforma uma vida para sempre.</p>
+        <span>© 2026 Patinhas. Nenhum direito reservado, todas as informações desse site são fictícias.</span>
+    </footer>
     <script src="../js/tema.js"></script>
     <script src="../js/cadastro.js"></script>
     <script>

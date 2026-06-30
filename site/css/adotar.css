@@ -286,6 +286,7 @@ body.modo-escuro .intro-conteudo p {
 .titulos {
     text-align: left;
     margin-top: 5%;
+    margin-bottom: 2%;
     color: var(--cor-titulo-500);
 }
 
@@ -474,6 +475,94 @@ select:focus {
     backdrop-filter: blur(5px);
     background-color: rgba(0, 0, 0, 0.2);
     z-index: 999;
+}
+
+
+.adotar-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.card {
+    width: 30%;
+    height: auto;
+    border: 1px solid #e5e7eb;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+body.modo-escuro .card {
+    border: 1px solid var(--cor-bordas-escuras);
+    background-color: var(--header-escuro);
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-conteudo {
+    padding: 20px;
+    color: var(--cor-titulo-500);
+}
+
+
+body.modo-escuro .card-conteudo {
+    color: var(--cor-principal-500);
+}
+
+.card-conteudo p {
+    padding-top: 1%;
+    color: var(--cor-texto);
+}
+
+body.modo-escuro .card-conteudo p {
+    color: var(--cor-principal-50);
+}
+
+.contato {
+    color: var(--cor-titulo-500);
+}
+
+.btn-excluir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--erro);
+    color: white;
+    padding-block: 10px;
+    margin-inline: 25px;
+    margin-top: 15px;
+    border-radius: 15px;
+    transition: all 0.2s ease-out;
+}
+
+.btn-excluir:hover {
+    background-color: var(--erro-hover);
+    transition: all 0.2s ease-out;
+}
+
+.btn-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-principal-500);
+    color: white;
+    padding-block: 10px;
+    margin-inline: 25px;
+    margin-top: 15px;
+    border-radius: 15px;
+    transition: all 0.2s ease-out;
+}
+
+.btn-contato:hover {
+    background-color: var(--cor-principal-600);
+    transition: all 0.2s ease-out;
 }
 
 footer {
