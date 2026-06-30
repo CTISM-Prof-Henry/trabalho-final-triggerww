@@ -83,30 +83,30 @@ Marque com `[x]` os elementos que **foram implementados no seu site**. Você nã
 - [x] `<input>`
 - [x] `<label>`
 - [x] `<textarea>`
-- [ ] `<button>`
+- [x] `<button>`
 
 ### 🎨 CSS
 
 - Seletor de...
   - [x] Classes (`.classe`)
-  - [] IDs (`#id`)
+  - [x] IDs (`#id`)
   - [x] pseudoclasse (`#a::hover`)
 - [x] Cores
 - [x] Tipografia (e.g. `font-family`)
 - [x] Margem e padding
 - [x] Layout com `flexbox`
 - [x] Layout com `grid`
-- [ ] Responsividade (`media queries`)
+- [x] Responsividade (`media queries`)
 - [x] Animações ou transições
 
 ## ⚙️ JavaScript
 
-- [ ] Manipulação do DOM
+- [x] Manipulação do DOM
 - [x] Eventos (`click`, `submit`, etc.)
-- [ ] Validação de formulário
-- [ ] Alteração dinâmica de conteúdo
+- [x] Validação de formulário
+- [x] Alteração dinâmica de conteúdo
 - [x] Uso de funções
-- [ ] Uso de arrays ou objetos
+- [x] Uso de arrays ou objetos
 - [ ] Uso de `fetch` ou API externa
 - [x] local Storage
 
@@ -124,7 +124,8 @@ site/
 ├── pages/
 │   ├── adotar-protetor.html
 │   ├── adotar.html
-│   └── login.html
+│   ├── login.html
+│   └── registrar.html
 │
 ├── css/
 │   ├── adotar.css
@@ -134,6 +135,8 @@ site/
 ├── js/
 │   ├── cadastro.js
 │   ├── login.js
+│   ├── pets.js
+│   ├── registrar.js
 │   └── tema.js
 │
 └── images/
