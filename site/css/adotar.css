@@ -454,10 +454,6 @@ body.modo-escuro .card-conteudo p {
     color: var(--cor-principal-50);
 }
 
-.contato {
-    color: var(--cor-titulo-500);
-}
-
 .btn-excluir {
     display: flex;
     justify-content: center;
