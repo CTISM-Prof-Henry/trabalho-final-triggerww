@@ -1,3 +1,7 @@
+if(localStorage.getItem(status) !== 'logado') {
+    location.href = 'login.html';
+}
+
 const formulario = document.getElementById('cadastro');
 const fundo = document.getElementById('fundo');
 

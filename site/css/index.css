@@ -295,7 +295,7 @@ body.modo-escuro .titulos p {
 .destaque {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 20px;
 }
 

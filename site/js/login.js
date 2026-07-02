@@ -1,3 +1,7 @@
+if(localStorage.getItem(status) === 'logado') {
+    location.href = 'adotar-protetor.html';
+}
+
 const form = document.getElementById('login');
 const btn = document.getElementById('btn-login');
 
