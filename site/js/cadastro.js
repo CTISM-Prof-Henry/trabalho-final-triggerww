@@ -21,13 +21,14 @@ document.getElementById('btn-cancelar').addEventListener('click', ocultar);
 function registrar_pet() {
     const nome = document.getElementById('nome').value;
     const especie = document.getElementById('especie').value;
+    const sexo = document.getElementById('sexo').value;
     const raca = document.getElementById('raca').value;
     const idade = document.getElementById('idade').value;
     const contato = document.getElementById('contato').value; 
     const imagem = document.getElementById('url').value;
 
     const pet = {
-        nome, especie, raca, idade, contato, imagem
+        nome, especie, sexo, raca, idade, contato, imagem
     };
 
     const pets = JSON.parse(localStorage.getItem("pets")) || [];
