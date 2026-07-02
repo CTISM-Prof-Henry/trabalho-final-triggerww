@@ -470,6 +470,7 @@ body.modo-escuro .card-conteudo p {
 .btn-excluir:hover {
     background-color: var(--erro-hover);
     transition: all 0.2s ease-out;
+    cursor: pointer;
 }
 
 .btn-contato {
