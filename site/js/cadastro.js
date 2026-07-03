@@ -39,7 +39,7 @@ function registrar_pet() {
     mostrar_pet();
 }
 
-document.getElementById('btn-cadastro').addEventListener('click', registrar_pet);
+formulario.addEventListener('submit', registrar_pet);
 
 function mostrar_pet() {
     const lista = document.querySelector('.adotar-cards');
